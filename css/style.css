@@ -1,0 +1,68 @@
+body {
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: #FFEBEE;
+}
+header {
+    font-size: 20px;
+    background-color: #FFEBEE;
+    padding: 30px;
+    text-align: center;
+}
+.addToDo {
+    text-align: center;
+
+}
+input[type=text] {
+    width:50%;
+    display: inline-block;
+    background-color: white;
+    padding: 15px 50px;
+    border: 1px solid hsl(4, 90%, 58%);
+}
+ .button {
+    float: right;
+    background-color: #F44336;
+    color:#FFEBEE;
+    border: 1px solid hsl(4, 90%, 58%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 15px 50px;
+    margin: -15px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+p {
+    width: 70%;
+    padding:15px;
+    display: inline-block;
+    text-align: left;
+    margin: 3px;
+}
+p:nth-child(odd) {
+    background-color: #FFCDD2;
+}
+p:nth-child(even) {
+    background-color:#fff;
+}
+p:hover {
+    background-color: #F44336;   
+    transition-duration: 0.7s;
+}
+.span {
+    display: none;
+}
+/*.span::after{
+    visibility: visible;
+}*/
+.remove {
+    display: none;
+}
+#addButtun {
+    float: none;
+}
